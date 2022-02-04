@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#test
 #Preparing environment
 echo "Compiling the TCF Spring backend"
 mvn clean package
