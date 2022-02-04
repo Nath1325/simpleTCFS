@@ -8,6 +8,11 @@ on:
       - backend/**
 
 jobs:
+  test:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: test step
+        run: echo test
   Backend:
     runs-on: ubuntu-20.04
     steps:
